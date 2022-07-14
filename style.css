@@ -1,0 +1,213 @@
+@font-face{
+	font-family:LeagueGothic;
+	src: url(./fonts/LeagueGothic/LeagueGothicRegular.ttf);
+}
+@font-face{
+	font-family: Nunitosans;
+	src: url(./fonts/nunitosans/Nunitosansregular.ttf);
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+header{
+		background: url(./img/bg\ header.jpg)no-repeat;
+    max-width: 100%;
+    height: auto;
+		background-size: cover;
+		background-position: center center;
+		padding: 50px 0;
+}	
+.navbar-brand{
+	padding-bottom: 30px;
+}
+.nav-link{
+	text-transform: uppercase;
+	color: white !important;
+	font-size: 24px;
+	font-family:LeagueGothic;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.624);
+}
+.nav-item{
+	padding-left: 50px;
+}
+.nav-link p{
+	border-bottom: 2px solid plum;
+	padding-bottom: 2px;
+}
+.container-head{
+	width: 100%;
+	margin: auto;
+	background: rgba(0,0,0,0.2);
+}
+.container-for-slider{
+	width: 80%;
+	margin: 0 auto 0 auto;
+}
+.slide{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.slide-text{
+	width: 45%;
+	padding-left: 80px;
+}
+.slide img{
+	padding-right: 100px;
+	cursor: pointer;
+}
+.slide-title{
+    font-family: LeagueGothic;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.624);
+		color:white;
+		text-transform: capitalize;
+}
+.slide-subtitle{
+	font-family: LeagueGothic;
+	font-size: 35px;
+	color: plum;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.624);
+}
+.slide-advice{
+	color: white;
+	font-size: 18px;
+	font-family: Nunitosans;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.624);
+	line-height: 1.2;
+}
+.bx-wrapper {
+	background: transparent!important;
+	border: 5px solid transparent!important;
+	box-shadow: none!important;
+}
+.container-basic{
+	width: 100%;
+	background-size:cover;
+	height: auto;
+	background: linear-gradient(to top,#35273c, #765283);
+	
+}
+.about{
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	height: 100%;
+	margin: 0 auto 50px auto;
+	position: relative;
+}
+.about h2{
+	font-family: LeagueGothic;
+	font-size: 35px;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.624);
+	text-transform: uppercase;
+	padding: 50px 0 20px 0;
+}
+.about p{
+	color: white;
+	font-size: 18px;
+	font-family: Nunitosans;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.624);
+	line-height: 1.3;
+	padding: 0 60px 50px 0;
+}
+.read-more{
+	padding: 0 0 50px 110px ;
+}
+.read-more a{
+	font-family: LeagueGothic;
+	color: white;
+	text-transform: uppercase !important;
+	font-size: 20px;
+	text-decoration: none;
+}
+.read-more:hover{
+	text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.about-left{
+	position: relative;
+}
+.about-left h2::before{
+	content:'';
+	background: url(./img/spanner.png);
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	background-repeat: no-repeat;
+	left: -50px;
+	top: 50px;
+}
+.about-centr{
+	position: relative;
+}
+.about-centr h2::before{
+	content:'';
+	background: url(./img/comment.png);
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	background-repeat: no-repeat;
+	left: -50px;
+	top: 50px;
+}
+.about-right{
+	position: relative;
+}
+.about-right h2::before{
+	content:'';
+	background: url(./img/note.png);
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	background-repeat: no-repeat;
+	left: -50px;
+	top: 50px;
+}
+
+
+
+
