@@ -204,10 +204,185 @@ header{
 	height: 32px;
 	position: absolute;
 	background-repeat: no-repeat;
-	left: -50px;
+	left: -50px !important;
 	top: 50px;
 }
-
-
-
-
+.parent-container{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid gainsboro;
+}
+.container-items{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.item-slider{
+	width: 50%;
+	margin-right: 40px;
+}
+.show{
+	padding: 0 20px 10px 50px;
+	position: relative;
+}
+.item-slider h3{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: LeagueGothic;
+	padding-bottom: 10px;
+}	
+.item-slider span{
+	color: plum;
+	padding-left: 10px;
+}
+.item-slider p{
+	font-size: 18px;
+	font-family: Nunitosans;
+	line-height: 1.5;
+	color: dimgray;
+}
+.wrapper{
+	background-color: gainsboro;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+}
+.item-photo{
+	position: absolute;
+	left: -50px;
+	top: 10px;
+}
+.triangle-down{
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid gainsboro;
+	position: absolute;
+	right: 50px;
+	bottom: 0;
+}
+.item-right{
+	width: 50%;
+	padding: 20px 0 30px 50px;
+}
+.item-right h3{
+	font-size:30px;
+	font-family: LeagueGothic;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.info{
+	font-size: 18px;
+	font-family: Nunitosans;
+	padding-bottom: 20px;
+	line-height: 1.5;
+	position: relative;
+}
+.posted{
+	color: dimgray;
+	line-height: 1.5;
+}
+.posted::before{
+	content:'';
+	background: url(./img/post-img.png);
+	width: 48px;
+	height: 51px;
+	position: absolute;
+	left: -60px;
+	top: 0;
+}
+.info-link a{
+	text-decoration: none;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: LeagueGothic;
+	color: black;
+	display: flex;
+	justify-content: end;
+	padding-right: 50px;
+}
+.container-lables{
+	width: 50%;
+	margin: auto;
+}
+.first-img{
+	display: flex;
+	justify-content: space-around;
+}
+.next-img{
+	display: flex;
+	justify-content: space-around;
+}
+.container-bottom{
+	margin: 50px;
+}
+.final-container{
+	width: 100%;
+	height: auto;
+	background: gainsboro;
+}
+.info-container{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 0 50px 0;
+}
+.info-left h2{
+	font-size: 70px;
+	font-family: LeagueGothic;
+	text-transform: uppercase;
+	opacity: 0.9;
+}
+.info-left span{
+	font-size: 70px;
+	text-transform: uppercase;
+	font-family: LeagueGothic;
+	opacity: 0.6;
+}
+.cursive{
+	text-transform: capitalize;
+	font-family: Nunitosans;
+	font-size: 18;
+	font-style: italic;
+}
+.info-left p{
+	font-family: Nunitosans;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.info-centr{
+	padding: 0 35px 0 35px;
+}
+.info-centr h2{
+	font-size: 50px;
+	font-family: LeagueGothic;
+	opacity: 0.9;
+	text-transform: uppercase;
+}
+.info-centr p{
+	font-size: 18px;
+	font-family: Nunitosans;
+	line-height: 1.5;
+}
+.info-right h2{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: LeagueGothic;
+	opacity: 0.9;
+}
+.info-right p{
+	font-size: 18px;
+	font-family: Nunitosans;
+	line-height: 1.5;
+}
+.footer{
+	background: url(./img/bg-footer.jpg);
+	width: 100%;
+	height: 114px;
+	background-size: cover;
+	display: block;
+}
