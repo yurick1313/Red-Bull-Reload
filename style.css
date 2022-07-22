@@ -214,6 +214,7 @@ header{
 	width: 100%;
 	height: auto;
 	border-bottom: 1px solid gainsboro;
+	margin-top: 50px;
 }
 .container-items{
 	width: 70%;
@@ -389,4 +390,38 @@ header{
 	height: 114px;
 	background-size: cover;
 	display: block;
+	background-position: center center;
+}
+.footer-container{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 45px 0;
+}
+.footer-menu ul{
+	display: flex;
+}
+.footer-menu ul li a{
+	text-transform: uppercase;
+	color: white !important;
+	font-size: 24px;
+	font-family: LeagueGothic;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.624);
+	text-decoration: none;
+	padding: 25px;
+}
+.footer-menu ul li a:hover{
+	color: plum !important;
+	text-shadow: 0 0 10px rgb(37, 34, 34);
+	transition-duration: 0.5s;
+}
+.developed a{
+	color: white;
+	text-decoration: none;
+	font-family: Nunitosans;
+	padding: 15px;
+}
+.developed span{
+	font-weight: bold;
 }
