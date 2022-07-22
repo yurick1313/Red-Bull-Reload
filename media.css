@@ -288,5 +288,8 @@ font-size: 50px;
 		.item-slider h3{
 			font-size: 17px;
 		}
+		.bx-viewport{
+			height: 315px;
+		}
 		}
 	
