@@ -1,5 +1,7 @@
 $(document).ready(function(){
-	$('.header-slider').bxSlider();
+	$('.header-slider').bxSlider({
+		speed: 1000 ,
+	});
 });
 
 $
@@ -8,14 +10,14 @@ $
 	controls: false,
   pager: true,
   slideWidth: 400,
-	speed: 700,
+	speed: 1200,
 });
 
 $
 ('.lable').bxSlider({
-	speed:700 ,
+	speed:1000 ,
 	minSlides: 1,
-	maxSlides: 12,
+	maxSlides: 1,
 	moveSlides: 0,
 	slideWidth: 0,
 	shrinkItems:false,

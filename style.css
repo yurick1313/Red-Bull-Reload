@@ -124,6 +124,9 @@ header{
 	border: 5px solid transparent!important;
 	box-shadow: none!important;
 }
+.bx-pager-link.active{
+	border-bottom: 3px solid plum;
+}
 .container-basic{
 	width: 100%;
 	background-size:cover;
@@ -247,6 +250,7 @@ header{
 	padding: 20px;
 	position: relative;
 	border-radius: 4px;
+	box-shadow: 4px 4px 4px rgb(86, 84, 84);
 }
 .item-photo{
 	position: absolute;
@@ -288,7 +292,7 @@ header{
 	content:'';
 	background: url(./img/post-img.png);
 	width: 48px;
-	height: 51px;
+	height: 48px;
 	position: absolute;
 	left: -60px;
 	top: 0;
