@@ -95,10 +95,10 @@ header{
 	padding-left: 80px;
 }
 .slide video{
-	padding-right: 100px;
+	margin-right: 50px;
 	cursor: pointer;
 	width: 263px;
-	height: 386px;
+	height: 380px;
 }
 .slide-title{
     font-family: LeagueGothic;
