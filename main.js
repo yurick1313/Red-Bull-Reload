@@ -17,8 +17,8 @@ $
 ('.lable').bxSlider({
 	speed:1000 ,
 	minSlides: 1,
-	maxSlides: 1,
-	moveSlides: 0,
+	maxSlides: 3,
+	moveSlides: 3,
 	slideWidth: 0,
 	shrinkItems:false,
 });

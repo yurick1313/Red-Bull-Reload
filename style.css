@@ -94,9 +94,11 @@ header{
 	width: 45%;
 	padding-left: 80px;
 }
-.slide img{
+.slide video{
 	padding-right: 100px;
 	cursor: pointer;
+	width: 263px;
+	height: 386px;
 }
 .slide-title{
     font-family: LeagueGothic;
@@ -274,6 +276,7 @@ header{
 	font-family: LeagueGothic;
 	text-transform: uppercase;
 	padding-bottom: 10px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.624);
 }
 .info{
 	font-size: 18px;
@@ -281,6 +284,9 @@ header{
 	padding-bottom: 20px;
 	line-height: 1.5;
 	position: relative;
+}
+.info-link a{
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.624);
 }
 .posted{
 	color: dimgray;
