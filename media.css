@@ -113,7 +113,7 @@ font-size: 50px;
 }
 
 @media(max-width:425px){
-	.slide img{
+	.slide video{
 		display: none;
 	}
 	.slide{
