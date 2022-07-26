@@ -35,7 +35,7 @@
 		padding-bottom: 20px;
 	}
 	.read-more{
-		padding: 0 0 50px 50px;
+		padding-bottom: 50px;
 	}
 	.about h2{
 		font-size: 25px;	
@@ -60,57 +60,54 @@
 	}
 	.posted::before{
 		left: 0;
-}
+	}
 	.bx-wrapper{
 	margin: 0 auto 50px auto;
-}
-.show{
-	padding: 50px;
-}
-.wrapper{
+	}
+	.wrapper{
 	width: 100%;
-}
-.triangle-down{
+	}
+	.triangle-down{
 	right: 80px;
-	bottom: 40px;
-}
-.about{
+	bottom: 0;
+	}
+	.about{
 	margin-bottom: 0;
-}
-.container-lables{
+	}
+	.container-lables{
 	width: 80%;
-}
-.info-left h2{
-font-size: 50px;
-}
-.info-left span{
+	}
+	.info-left h2{
 	font-size: 50px;
-}
-.info-left p{
+	}
+	.info-left span{
+	font-size: 50px;
+	}
+	.info-left p{
 	font-size: 15px;
-}
-.info-centr h2{
+	}
+	.info-centr h2{
 	font-size: 30px;
-}
-.info-centr p{
+	}
+	.info-centr p{
 	font-size: 15px;
-}
-.info-right h2{
+	}
+	.info-right h2{
 	font-size: 30px;
-}
-.info-right p{
+	}
+	.info-right p{
 	font-size: 15px;
-}
-.footer-container{
+	}
+	.footer-container{
 	width: 90%;
 	margin: auto;
-}
-.footer-menu ul li a{
+	}
+	.footer-menu ul li a{
 	font-size: 20px;
 	padding: 10px;
+	}
 }
 
-}
 
 @media(max-width:425px){
 	.slide video{
@@ -155,11 +152,14 @@ font-size: 50px;
 		text-align: center;
 	}
 	.read-more{
-		padding:0 0 50px 0;
+		padding-bottom: 30px;
 		text-align: center;
 	}
 	.item-right{
 		text-align: center;
+	}
+	.item-photo{
+		left: -48px;
 	}
 	.posted::before{
 		left: -50px;
@@ -167,9 +167,6 @@ font-size: 50px;
 	.info-link{
 	width: 70%;
 		margin: auto;
-	}
-	.show{
-	padding:0 60px 10px 60px;
 	}
 	.item-slider h3{
 	font-size: 25px;

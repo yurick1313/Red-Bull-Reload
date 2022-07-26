@@ -161,7 +161,8 @@ header{
 	padding: 0 60px 50px 0;
 }
 .read-more{
-	padding: 0 0 50px 110px ;
+	padding-bottom: 50px;
+	text-align: center;
 }
 .read-more a{
 	font-family: LeagueGothic;
@@ -225,8 +226,8 @@ header{
 	width: 50%;
 	margin-right: 40px;
 }
-.show{
-	padding: 0 20px 10px 50px;
+.slide-show{
+	padding: 0 50px 10px 50px;
 	position: relative;
 }
 .item-slider h3{
@@ -264,8 +265,8 @@ header{
 	border-right: 10px solid transparent;
 	border-top: 10px solid gainsboro;
 	position: absolute;
-	right: 50px;
-	bottom: 0;
+	right: 80px;
+	bottom: 1px;
 }
 .item-right{
 	width: 50%;
